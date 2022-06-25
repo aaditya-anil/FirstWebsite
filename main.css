@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 2px;
+}
+
+ul{
+    display: flex;
+    gap: 24px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.Header, .WebsiteInfo, .Footer{
+    background-color: #1f2937;
+    color: white;
+    
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.WebsiteInfo{
+    padding: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+}
+
+.Testimonial{
+    background-color: #E5E7EB;
+}
