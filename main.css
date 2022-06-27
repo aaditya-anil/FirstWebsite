@@ -1,7 +1,9 @@
 *{
-    margin: 0;
+    margin: auto;
     padding: 2px;
+    font-family: Arial, Helvetica, sans-serif
 }
+
 
 ul{
     display: flex;
@@ -28,8 +30,70 @@ ul{
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
+    gap: 8px;
+}
+
+.Web-left{
+    max-width: 40%;   
+
+}
+
+.Web-left h2{
+    font-size: 30px;
+}
+
+.borderdiv{
+    border: 2px solid white;
+    width: 200px;
+    height: 100px;
+    
+}
+
+.RandomInfo{
+    text-align: center;
+    padding: 16px;
+}
+
+.Blocks{
+    display: flex;
 }
 
 .Testimonial{
+    padding: 48px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.Thor{
+    text-align: right;
+    
+}
+.Testimonial{
     background-color: #E5E7EB;
+}
+
+.CalltoAction{
+    padding: 20px;
+}
+
+.Callbox{
+    padding: 20px;
+    background-color: #3882F6;
+}
+
+.Footer{
+    padding: 24px;
+    text-align: center;
+}
+
+.Header h3{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.Header ul{
+    font-size: 12px;
+}
+.blocks img{
+    border: #3882F6 2px;
 }
